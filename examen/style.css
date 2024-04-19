@@ -1,0 +1,80 @@
+  /* Estilos CSS */
+  body {
+    /*background-image: url(fondo.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;*/
+    /*lice el fondo de pantalla de mi pagina no me gusta ahi nomas lo dejaremos XD
+    pero por lo menos logre hacer la pagina web*/
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+   background-color: #f0f0f0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+nav img{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    height: 50px;
+}
+.imagen{
+    width: 200px;
+    height: auto;
+}
+
+nav {
+    background-color: #444;
+   color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+section {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+article {
+   background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    flex: 1 0 30%;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.icon-contaier{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.icon{
+    width: 24px;
+    height: 24px;
+    margin: 0 10px;
+}
